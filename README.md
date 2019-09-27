@@ -6,11 +6,14 @@ Number theory
 --------------
 
 ### General ###
-* EGCD - Extended Euclidean algorithm - egcd.py
+* GCD - greatest common divisor - [utils.py](number-theory/utils.py) 
+* EGCD - extended Euclidean algorithm - [utils.py](number-theory/utils.py)
+* modular inverse - [utils.py](number-theory/utils.py)
+* modular exponentiation (square-and-multiply) - [utils.py](number-theory/utils.py)
 
 ### More specific
 * Miller Rabin primality checking [millerrabin.py](number-theory/millerrabin.py)
-* Christofides' algorithm (?) in C++
+* Christofides algorithm (?) in C++
 * Elliptic curves factorisation in C++ and Python
 
 Other
