@@ -13,14 +13,19 @@ Number theory
 
 ### More specific
 * Miller Rabin primality checking [millerrabin.py](number-theory/millerrabin.py)
-* Christofides algorithm (?) in C++
-* Elliptic curves factorisation in C++ and Python
+* Elliptic curves factorisation (Lenstra's algorithm) 
+    * in Python [ecpoints.py](number-theory/ecpoints.py), [lenstra.py](number-theory/lenstra.py)
+    * in C++
 
 Other
 ------
 
 ### Minimal spanning tree (MST)
 Prim and Kruskal in both Python and C++
+
+### More specific
+* Christofides algorithm (?) in C++
+
 
 
 Data structures
