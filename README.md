@@ -11,11 +11,14 @@ Number theory
 * modular inverse - [utils.py](number-theory/utils.py)
 * modular exponentiation (square-and-multiply) - [utils.py](number-theory/utils.py)
 
-### More specific
+### Primes and factorisation
 * Miller Rabin primality checking [millerrabin.py](number-theory/millerrabin.py)
 * Elliptic curves factorisation (Lenstra's algorithm) 
     * in Python [ecpoints.py](number-theory/ecpoints.py), [lenstra.py](number-theory/lenstra.py)
     * in C++
+    
+### Advanced Encryption Standard (AES)
+An implementation of the symmetric-key encryption algorithm AES [aes.cpp](number-theory/aes/aes.cpp), [aes_final.py](number-theory/aes/aes_final.py) and the maths that it is founded on, the Rijndael Galois Field [aes_gfscalar.py](number-theory/aes/aes_gfscalar.py).
 
 Graph theory
 ------
