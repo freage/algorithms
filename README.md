@@ -24,13 +24,16 @@ Graph theory
 Kruskal's algorithm (union-find with disjoint sets)
 
 * in Python: [kruskal.py](graph-theory/kruskal.py) and used in Kattis-problem [cats.py](graph-theory/cats.py)
-* in C++: [mst.hpp](graph-theory/mst.hpp) and [mst.cpp](graph-theory/mst.cpp)
+* in C++: [mst.hpp](graph-theory/tsp/mst.hpp) and [mst.cpp](graph-theory/tsp/mst.cpp)
 
 Prim's algorithm (with a priority queue)
 
-* in C++: [mst.hpp](graph-theory/mst.hpp) and [mst.cpp](graph-theory/mst.cpp)
+* in C++: [mst.hpp](graph-theory/tsp/mst.hpp) and [mst.cpp](graph-theory/tsp/mst.cpp)
 
-An 2-APX solver of the Travelling Salesman Problem (TSP) can be done based on MST: [mst_heuristic.hpp](graph-theory/mst_heuristic.hpp) and [mst_heuristic.cpp](graph-theory/mst_heuristic.cpp). (Taken from a course in advanced algorithms where we implemented several TSP approxmation solvers.)
+The MST solver is taken from a course in advanced algorithms where we implemented several approxmation solvers for the Travelling Salesman Problem (TSP).
+
+* A simple 2-APX solver of TSP can be done based on MST: [mst_heuristic.hpp](graph-theory/tsp/mst_heuristic.hpp) and [mst_heuristic.cpp](graph-theory/tsp/mst_heuristic.cpp). 
+* One can also implement Christofides algorithm (here a simplified version with greedy matching) [christofides.hpp](graph-theory/tsp/christofides.hpp) and [christofides.cpp](graph-theory/tsp/christofides.cpp).
 
 
 Other
