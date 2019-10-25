@@ -16,9 +16,7 @@ Number theory
 * Elliptic curves factorisation (Lenstra's algorithm) 
     * in Python [ecpoints.py](number-theory/ecpoints.py), [lenstra.py](number-theory/lenstra.py)
     * in C++
-    
-### Advanced Encryption Standard (AES)
-An implementation of the symmetric-key encryption algorithm AES [aes.cpp](number-theory/aes/aes.cpp), [aes_final.py](number-theory/aes/aes_final.py) and the maths that it is founded on, the Rijndael Galois Field [aes_gfscalar.py](number-theory/aes/aes_gfscalar.py).
+
 
 Graph theory
 ------
@@ -39,11 +37,11 @@ The MST solver is taken from a course in advanced algorithms where we implemente
 * One can also implement Christofides algorithm (here a simplified version with greedy matching) [christofides.hpp](graph-theory/tsp/christofides.hpp) and [christofides.cpp](graph-theory/tsp/christofides.cpp).
 
 
-Other
+Cryptography
 -----
 
-### AES
-AES implemented in C++.
+### Advanced Encryption Standard (AES)
+An implementation of the symmetric-key encryption algorithm AES in C++: [aes.cpp](number-theory/aes/aes.cpp) and in Python: [aes_final.py](number-theory/aes/aes_final.py) as well as the maths that it is founded on, the Rijndael Galois Field [aes_gfscalar.py](number-theory/aes/aes_gfscalar.py). The Python solution was improved with a profiler and then rewritten into C++.
 
 
 Data structures
