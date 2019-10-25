@@ -31,7 +31,7 @@ Prim's algorithm (with a priority queue)
 
 * in C++: [mst.hpp](graph-theory/tsp/mst.hpp) and [mst.cpp](graph-theory/tsp/mst.cpp)
 
-The MST solver is taken from a course in advanced algorithms where we implemented several approxmation solvers for the Travelling Salesman Problem (TSP).
+The MST solver can be used to implement approxmation solvers for the Travelling Salesman Problem (TSP).
 
 * A simple 2-APX solver of TSP can be done based on MST: [mst_heuristic.hpp](graph-theory/tsp/mst_heuristic.hpp) and [mst_heuristic.cpp](graph-theory/tsp/mst_heuristic.cpp). 
 * One can also implement Christofides algorithm (here a simplified version with greedy matching) [christofides.hpp](graph-theory/tsp/christofides.hpp) and [christofides.cpp](graph-theory/tsp/christofides.cpp).
