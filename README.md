@@ -17,15 +17,25 @@ Number theory
     * in Python [ecpoints.py](number-theory/ecpoints.py), [lenstra.py](number-theory/lenstra.py)
     * in C++
 
-Other
+Graph theory
 ------
 
 ### Minimal spanning tree (MST)
-Prim and Kruskal in both Python and C++
+Kruskal's algorithm (union-find with disjoint sets)
 
-### More specific
-* Christofides algorithm (?) in C++
+* in Python: [kruskal.py](graph-theory/kruskal.py) and used in Kattis-problem [cats.py](graph-theory/cats.py)
+* in C++
 
+Prim's algorithm (with a priority queue)
+
+* in C++
+
+
+Other
+-----
+
+### AES
+AES implemented in C++.
 
 
 Data structures
