@@ -24,11 +24,13 @@ Graph theory
 Kruskal's algorithm (union-find with disjoint sets)
 
 * in Python: [kruskal.py](graph-theory/kruskal.py) and used in Kattis-problem [cats.py](graph-theory/cats.py)
-* in C++
+* in C++: [mst.hpp](graph-theory/mst.hpp) and [mst.cpp](graph-theory/mst.cpp)
 
 Prim's algorithm (with a priority queue)
 
-* in C++
+* in C++: [mst.hpp](graph-theory/mst.hpp) and [mst.cpp](graph-theory/mst.cpp)
+
+An 2-APX solver of the Travelling Salesman Problem (TSP) can be done based on MST: [mst_heuristic.hpp](graph-theory/mst_heuristic.hpp) and [mst_heuristic.cpp](graph-theory/mst_heuristic.cpp). (Taken from a course in advanced algorithms where we implemented several TSP approxmation solvers.)
 
 
 Other
